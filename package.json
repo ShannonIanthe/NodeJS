@@ -1,0 +1,27 @@
+{
+  "name": "nodejspassportt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "express-sessions": "^1.0.6",
+    "fresh": "^0.5.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.2.4",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
